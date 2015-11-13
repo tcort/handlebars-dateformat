@@ -1,6 +1,6 @@
 {
   "name": "handlebars-dateformat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "handlebars date format helper",
   "main": "index.js",
   "scripts": {
