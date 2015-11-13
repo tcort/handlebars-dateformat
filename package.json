@@ -1,0 +1,35 @@
+{
+  "name": "handlebars-dateformat",
+  "version": "0.0.0",
+  "description": "handlebars date format helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tcort/handlebars-dateformat"
+  },
+  "keywords": [
+    "handlebars",
+    "date",
+    "format",
+    "helper",
+    "moment",
+    "time"
+  ],
+  "author": "Thomas Cort <linuxgeek@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcort/handlebars-dateformat/issues"
+  },
+  "homepage": "https://github.com/tcort/handlebars-dateformat",
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3",
+    "handlebars": "^4.0.4"
+  }
+}
