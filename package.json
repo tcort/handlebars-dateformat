@@ -4,6 +4,7 @@
   "description": "handlebars date format helper",
   "main": "index.js",
   "scripts": {
+    "pretest": "jshint index.js",
     "test": "mocha -R spec"
   },
   "repository": {
@@ -30,6 +31,36 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^2.3.4",
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "jshint": "^2.9.1-rc2"
+  },
+  "jshintConfig": {
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "globalstrict": true,
+    "immed": true,
+    "indent": 4,
+    "moz": true,
+    "newcap": true,
+    "noarg": true,
+    "node": true,
+    "noempty": true,
+    "nonew": true,
+    "trailing": true,
+    "undef": true,
+    "smarttabs": true,
+    "strict": true,
+    "validthis": true,
+    "globals": {
+      "describe": false,
+      "it": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false
+    }
   }
 }
