@@ -28,4 +28,9 @@ describe('handlebars-dateformat', function () {
         var rendered = template({ date: moment("2010-01-01T05:06:07", moment.ISO_8601), format: 'YYYY-MM-DD' });
         expect(rendered).to.be('2010-01-01');
     });
+    it('should format dates in UTC', function () {
+        var template = handlebars.compile('{{dateFormat date format true}}');
+        var rendered = template({ date: moment("2010-01-01T05:06:07Z", moment.ISO_8601), format: 'YYYY-MM-DD HH:mm:ss' });
+        expect(rendered).to.be('2010-01-01 05:06:07');
+    });
 });
