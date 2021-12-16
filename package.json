@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/tcort/handlebars-dateformat",
   "dependencies": {
-    "moment": "^2.18.1"
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^3.5.0",
-    "handlebars": "^4.0.10",
-    "jshint": "^2.9.5"
+    "mocha": "^9.1.3",
+    "handlebars": "^4.7.7",
+    "jshint": "^2.13.1"
   },
   "jshintConfig": {
     "bitwise": true,
